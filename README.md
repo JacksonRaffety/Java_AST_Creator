@@ -16,6 +16,11 @@ git clone https://github.com/JacksonRaffety/Java_AST_Creator
 ```
 
 You can compile the code and run tests with Maven (at least version 1.7 as it is targetted in the pom.xml)
+```bash
+# for installing and compiling
+mvn install
+mvn compile
+```
 
 Running the Program
 ----------------------
@@ -25,5 +30,5 @@ Running the Program
 mvn exec:java -Dexec.mainClass="ast.ASTCreator" -Dexec.args="<path to directory here>"
 
 # example
-mvn exec:java -Dexec.mainClass="ast.ASTCreator" -Dexec.args="<src/main>"
+mvn exec:java -Dexec.mainClass="ast.ASTCreator" -Dexec.args="src/main"
 ```
